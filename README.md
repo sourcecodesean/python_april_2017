@@ -10,7 +10,7 @@ Welcome to the snake pit!
  1. Fork this repo to your github account.
  2. Clone it locally onto your laptop.
  3. Create a folder with your name, ex: kate_moczydlowski
- 4. Add *this* (https://github.com/CodingDojoDallas/python_march_2017/) repo as a REMOTE to your locally cloned copy.
+ 4. Add *this* (https://github.com/CodingDojoDallas/python_april_2017/) repo as a REMOTE to your locally cloned copy.
  5. Create a pull request! 
  6. Profit!
  
