@@ -1,0 +1,7 @@
+install django----->installed django
+pip list ----->lists pip items you can download
+pip install django does nothing because you already downloaded it
+pip freeze lists the same things as pip list only without spaces and without paraenthesies
+pip uninstall django----> uninstalls it
+pip show django lists django
+pip search flask----->takes a moment to execute
