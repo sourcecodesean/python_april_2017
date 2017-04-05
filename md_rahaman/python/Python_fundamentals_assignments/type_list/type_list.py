@@ -1,6 +1,6 @@
 
 
-list = ['magical unicorns',19,'hello',98.98,'world']
+list = [22,45,60,'soikat','rahaman']
 
 sum = 0 
 str = ""
