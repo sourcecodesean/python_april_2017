@@ -63,11 +63,11 @@ class Hospital(object):
 # filter = [bed for bed in hospital1.bed_list if bed.status=="vacant"]
 # print len(filter)
 	def admit(self, patient):
-		if len(self.bed_number_list) > self.capacity:
+		if len([bed for bed in bed_list if bed.status=="vacant"]) < self.capacity:
 			#alocate first vacant bed in the bed_list
-			[bed for bed in hospital1.bed_list][0].ID=patient.ID
-			[bed for bed in hospital1.bed_list][0].ID
-			patient.bed_number=self.bed_number_list.status="occupied"
+			[bed for bed in bed_list if bed.status=="vacant"][0].ID=patient.ID
+			[bed for bed in bed_list if bed.status=="vacant"][0].status="vacant"
+			bed_number_list.status="occupied"
 			self.patients.append(patient)
 			print "Your admission has been confirmed!"
 		else:
